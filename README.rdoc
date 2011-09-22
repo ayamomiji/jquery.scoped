@@ -1,0 +1,12 @@
+= jquery.scoped
+
+== Usage
+
+  $('.sidebar').scoped(function(S) {
+    S('a').foo(); // = $('.sidebar').find('a').foo()
+    S('b').bar(); // = $('.sidebar').find('b').bar()
+  });
+
+== License
+
+The MIT License
